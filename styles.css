@@ -31,7 +31,6 @@ body {
 
 .item {
   width: 150px;
-  height: 66px;
   border: 1px solid #eee;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 20px;
@@ -42,13 +41,14 @@ body {
   cursor: grab;
 }
 
+
 .item:active {
   cursor: grabbing;
 }
 
 .placeholder {
   width: 150px;
-  height: 66px;
+  height: 45px;
 }
 
 .start {
@@ -61,4 +61,20 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold{
+  color: #fff;
+  background-color: #8ed7ed;
+  border: 5px solid #eee;
+}
+
+.hide{
+  /* display: none; */
+  visibility: 0;
+}
+
+.hovered{
+  border: 3px dotted #8ed7ed;
+  border-radius: 20px;
 }
