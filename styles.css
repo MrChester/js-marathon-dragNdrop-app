@@ -70,8 +70,7 @@ body {
 }
 
 .hide{
-  /* display: none; */
-  visibility: 0;
+  display: none;
 }
 
 .hovered{
